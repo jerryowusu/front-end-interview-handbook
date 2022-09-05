@@ -11,5 +11,6 @@ sidebar_label: Twitter interview questions
 ## Trivia
 
 - What is the difference between `Array.prototype.map` and `Array.prototype.forEach`?
+  - [Read answer on Great Front End](https://www.greatfrontend.com/questions/quiz/javascript/can-you-describe-the-main-difference-between-a-foreach-loop-and-a-map-loop-and-why-you-would-pick-one-versus-the-other)
 
 _Source: [Glassdoor Twitter Front End Developer Interview Questions](https://www.glassdoor.sg/Interview/Twitter-Front-End-Developer-Interview-Questions-EI_IE100569.0,7_KO8,27.htm)_

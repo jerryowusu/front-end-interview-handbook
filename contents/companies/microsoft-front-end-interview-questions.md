@@ -17,8 +17,11 @@ sidebar_label: Microsoft interview questions
 ## Trivia
 
 - What is a prototype?
+  - [Read answer on Great Front End](https://www.greatfrontend.com/questions/quiz/javascript/explain-how-prototypal-inheritance-works)
 - What is a closure?
+  - [Read answer on Great Front End](https://www.greatfrontend.com/questions/quiz/javascript/what-is-a-closure-and-how-why-would-you-use-one)
 - What is the difference between `let`, `const`, and `var`?
+  - [Read answer on Great Front End](https://www.greatfrontend.com/questions/quiz/javascript/what-are-the-differences-between-variables-created-using-let-var-or-const)
 - What is DOM?
 
 ## System Design

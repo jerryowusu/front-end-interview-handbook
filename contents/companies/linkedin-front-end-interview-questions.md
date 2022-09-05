@@ -6,6 +6,7 @@ sidebar_label: LinkedIn interview questions
 ## JavaScript
 
 - Write a `getElementsByClassName` function.
+  - [Practice question on Great Front End](https://www.greatfrontend.com/questions/javascript/get-elements-by-class-name)
 
 ## User interface coding
 
@@ -15,11 +16,14 @@ sidebar_label: LinkedIn interview questions
 ## Trivia
 
 - Difference between CSS `padding` and `margin`.
+  - [Read answer on Great Front End](https://www.greatfrontend.com/questions/quiz/css/explain-your-understanding-of-the-box-model-and-how-you-would-tell-the-browser-in-css-to-render-your-layout-in-different-box-models)
 - Difference between promise and callback?
 - Difference between event bubbling and capturing?
 - Difference between callback and closure in JavaScript?
 - What are the advantages of using preprocessors? e.g. Sass, Stylus, Less.
+  - [Read answer on Great Front End](https://www.greatfrontend.com/questions/quiz/css/what-are-the-advantages-disadvantages-of-using-css-preprocessors)
 - What is event delegation?
+  - [Read answer on Great Front End](https://www.greatfrontend.com/questions/quiz/javascript/explain-event-delegation)
 
 ## Algorithm
 

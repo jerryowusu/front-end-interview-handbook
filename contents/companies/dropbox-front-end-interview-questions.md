@@ -6,6 +6,7 @@ sidebar_label: Dropbox interview questions
 ## JavaScript
 
 - Implement [`getByClassName()` and `getByClassnameHierarchy()`](https://leetcode.com/discuss/interview-question/427896/Dropbox-or-Phone-Screen-or-Implement-getByClassName-and-getByClassnameHierarchy)
+  - [Practice question on Great Front End](https://www.greatfrontend.com/questions/javascript/get-elements-by-class-name)
 - OOP-based class management system.
 
 ## User interface coding

@@ -6,6 +6,7 @@ sidebar_label: Lyft interview questions
 ## JavaScript
 
 - Implement `Promise.all`.
+  - [Practice question on Great Front End](https://www.greatfrontend.com/questions/javascript/promise-all)
 
 ## User interface coding
 

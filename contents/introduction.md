@@ -10,6 +10,8 @@ Many front end interviews are highly-focused on domain knowledge and applying th
 
 While there are some existing resources to help front end developers in preparing for interviews, they aren't as abundant as materials for a software engineer interview. Among the existing resources, probably the most helpful question bank would be [Front-end Developer Interview Questions](https://github.com/h5bp/Front-end-Developer-Interview-Questions). Unfortunately, there aren't many complete and satisfactory answers to these questions readily available online. This handbook answers these trivia-style questions along with information and guidance for other front end interview formats.
 
+However, I've recently used and reviewed [Great Front End](https://www.greatfrontend.com?utm_source=frontendinterviewhandbook&utm_medium=referral&utm_content=introduction&fpr=frontendinterviewhandbook), a platform calling itself "the LeetCode for Front End interviews". It contains Front End interview questions and answers written by ex-FAANG Senior Engineers and have both questions and answers for various formats: coding and trivia-style front end questions. I found it to be very useful and I highly recommend checking it out!
+
 ## General tips for front end interviews
 
 Regardless of which type of format you are given, one thing stays true - you need to be extremely strong in your front end fundamentals and constantly display mastery of them to your interviewer.
@@ -80,9 +82,15 @@ Describe and discuss how you would build a UI component/app/game and its archite
 
 [**Read more about front end system design →**](./front-end-system-design.md)
 
+:::info Be interview-ready with Great Front End
+
+[Great Front End](https://www.greatfrontend.com/?fpr=frontendinterviewhandbook) has questions and answers for all kind of front end interview questions, [study plans](https://www.greatfrontend.com/get-started?fpr=frontendinterviewhandbook), and a [huge question bank](https://www.greatfrontend.com/questions/coding?fpr=frontendinterviewhandbook)!
+
+:::
+
 ## Company interview formats
 
-Through extensive research, are the different type of formats companies ask during the technical rounds of front end interviews. If you're interviewing for front end engineering roles at certain companies, prepare accordingly!
+Through extensive research, here are the different type of formats companies ask during the technical rounds of front end interviews. If you're interviewing for front end engineering roles at certain companies, prepare accordingly!
 
 _Legend: ✅: Asked, ❌: Not asked, ⚠️: No data_
 

@@ -18,6 +18,12 @@ Trivia questions are meant to test how well a candidates understands the theory 
   - Explain the CSS box model.
   - Explain the various CSS `position` properties and its differences.
 
+:::info Best place to prepare for Front End interviews.
+
+[Great Front End](https://www.greatfrontend.com/?fpr=frontendinterviewhandbook) provides front end interview [study plans](https://www.greatfrontend.com/get-started?fpr=frontendinterviewhandbook) and a [huge question bank of trivia questions and answers](https://www.greatfrontend.com/questions/quiz?fpr=frontendinterviewhandbook). Start studying today!
+
+:::
+
 ## Advanced examples
 
 For more senior candidates, expect to explain more advanced stuff with no absolute answers.

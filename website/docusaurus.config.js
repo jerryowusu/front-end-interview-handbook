@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     announcementBar: {
       id: 'faangtechleads', // Increment on change
-      content: `⭐️ Craft the perfect resume for FAANG with these <a href="https://www.faangtechleads.com?utm_source=techinterviewhandbook&utm_medium=referral&utm_content=banner&aff=1e80c401fe7e2" target="_blank">Software Engineer resume templates and examples</a>!</a> ⭐️`,
+      content: `⭐️ <a href="https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&utm_content=banner&fpr=frontendinterviewhandbook" target="_blank">Great Front End</a> is a LeetCode for front end interviews created by ex-FAANG Senior Engineers. <a href="https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&utm_content=banner&fpr=frontendinterviewhandbook" target="_blank">Get 50% off their lifetime plan today</a>! ⭐️`,
       isCloseable: false,
     },
     prism: {
@@ -137,8 +137,8 @@ module.exports = {
               href: 'https://github.com/yangshun/front-end-interview-handbook',
             },
             {
-              label: 'Facebook',
-              href: 'https://www.facebook.com/techinterviewhandbook',
+              label: 'Tech Interview Handbook',
+              href: 'https://www.techinterviewhandbook.org',
             },
             {
               label: 'Twitter',

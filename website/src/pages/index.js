@@ -18,10 +18,10 @@ export default function Home() {
       description={siteConfig.tagline}>
       <div>
         <HeroSection />
-        <FAANGTechLeadsSection />
+        <GreatFrontEndSection />
         <FeaturesSection />
         <TweetsSection />
-        <MoonchaserSection />
+        <FAANGTechLeadsSection />
         <SuccessStoriesSection />
         <SponsorshipSection />
       </div>
@@ -74,45 +74,66 @@ function HeroSection() {
   );
 }
 
-function MoonchaserSection() {
-  /* Because the SSR and client output can differ and hydration doesn't patch attribute differences,
-we'll render this on the browser only. */
+function GreatFrontEndSection() {
   return (
-    <BrowserOnly>
-      {() => (
-        <div className={clsx('padding-vert--lg', styles.sectionSponsor)}>
-          <div className="container">
-            <div className="row">
-              <div className="col col--8 col--offset-2">
-                <div className="margin-vert--lg text--center">
-                  <h2 className={styles.sectionSponsorTitle}>
-                    <div align="center">
-                      <strong>
-                        Get paid more. Receive risk-free salary negotiation help
-                        from Moonchaser. You pay nothing unless your offer is
-                        increased.
-                      </strong>
-                    </div>
-                  </h2>
-                  <div className="margin-vert--lg">
+    <div
+      className={clsx('padding-vert--lg')}
+      style={{backgroundColor: 'rgb(79, 70, 229)'}}>
+      <div className="container">
+        <div className="row">
+          <div className="col col--10 col--offset-1">
+            <div className="margin-vert--lg text--center">
+              <div>
+                <h2
+                  className={styles.sectionSponsorTitle}
+                  style={{fontSize: 'var(--ifm-h2-font-size)'}}>
+                  <strong>
+                    Top Front End interview practice platform{' '}
                     <a
-                      className="button button--secondary button--lg"
-                      href="https://www.moonchaser.io/?utm_source=techinterviewhandbook&utm_medium=referral&utm_content=website_homepage"
-                      rel="noopener"
-                      target="_blank"
-                      onClick={() => {
-                        window.gtag('event', 'moonchaser.homepage.click');
-                      }}>
-                      Get risk-free negotiation advice&nbsp;&nbsp;→
-                    </a>
-                  </div>
+                      href="https://www.greatfrontend.com/?utm_source=frontendinterviewhandbook&utm_medium=referral&utm_content=homepage&fpr=frontendinterviewhandbook"
+                      style={{color: '#fff', textDecoration: 'underline'}}>
+                      Great Front End
+                    </a>{' '}
+                    is now offering a 50% discount off their lifetime plan!
+                    Check out interview practice questions and answers written
+                    by ex-FAANG Senior Front End Engineers.
+                  </strong>
+                </h2>
+                <div className="margin-vert--lg">
+                  <a
+                    className="button button--secondary button--lg"
+                    href="https://www.greatfrontend.com/questions/javascript/flatten?utm_source=frontendinterviewhandbook&utm_medium=referral&utm_content=homepage&fpr=frontendinterviewhandbook"
+                    rel="noopener"
+                    target="_blank"
+                    onClick={() => {
+                      window.gtag(
+                        'event',
+                        'greatfrontend.homepage.question.click',
+                      );
+                    }}>
+                    Try a question &nbsp;&nbsp;→
+                  </a>
+                  &nbsp;&nbsp;&nbsp;
+                  <a
+                    className="button button--secondary button--lg"
+                    href="https://www.greatfrontend.com/get-started?utm_source=frontendinterviewhandbook&utm_medium=referral&utm_content=homepage&fpr=frontendinterviewhandbook"
+                    rel="noopener"
+                    target="_blank"
+                    onClick={() => {
+                      window.gtag(
+                        'event',
+                        'greatfrontend.homepage.study_plan.click',
+                      );
+                    }}>
+                    View study plans &nbsp;&nbsp;→
+                  </a>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      )}
-    </BrowserOnly>
+      </div>
+    </div>
   );
 }
 
@@ -135,7 +156,7 @@ function FAANGTechLeadsSection() {
                 <div className="margin-vert--lg">
                   <a
                     className="button button--secondary button--lg"
-                    href="https://www.faangtechleads.com?utm_source=techinterviewhandbook&utm_medium=referral&utm_content=${position}&aff=1e80c401fe7e2"
+                    href="https://www.faangtechleads.com?utm_source=frontendinterviewhandbook&utm_medium=referral&utm_content=${position}&aff=1e80c401fe7e2"
                     rel="noopener"
                     target="_blank"
                     onClick={() => {

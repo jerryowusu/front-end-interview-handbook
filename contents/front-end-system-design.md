@@ -16,12 +16,18 @@ The two main kinds of front end system design interviews are UI components and a
 ## Examples
 
 - User interface components
-  - Image carousel
-  - Selector
+  - Autocomplete ([Read example solution on Great Front End](https://www.greatfrontend.com/questions/system-design/autocomplete))
+  - Image carousel ([Read example solution on Great Front End](https://www.greatfrontend.com/questions/system-design/image-carousel))
 - Applications
-  - News feed
+  - News feed ([Read example solution on Great Front End](https://www.greatfrontend.com/questions/system-design/news-feed-facebook))
   - Video watching website
   - Chat application
+
+:::info Read front end system design case studies
+
+[Great Front End](https://www.greatfrontend.com/?fpr=frontendinterviewhandbook) shows you how to approach front end system design interviews with their front end system design guide and case studies. Start reading today!
+
+:::
 
 ## RADAD Framework
 
@@ -47,3 +53,9 @@ Because front end system design interviews focus on front end, you probably do n
 - Talk about availability, fault tolerance, latency, etc
 
 Read more about the differences between [Front End vs Back End System Design interviews](/blog/front-end-vs-back-end-system-design-interviews/#differences).
+
+:::info Read front end system design case studies
+
+[Great Front End](https://www.greatfrontend.com/?fpr=frontendinterviewhandbook) shows you how to approach front end system design interviews with their front end system design guide and case studies. Start reading today!
+
+:::

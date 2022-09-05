@@ -31,6 +31,12 @@ Companies that ask such questions usually ask candidates to code in one of these
   - Tetris (advanced)
   - Snake (advanced)
 
+:::info Practice questions on Great Front End
+
+Not sure how to start? [Great Front End](https://www.greatfrontend.com/?fpr=frontendinterviewhandbook) has front end interview [study plans](https://www.greatfrontend.com/get-started?fpr=frontendinterviewhandbook) and a [huge question bank of coding questions](https://www.greatfrontend.com/questions/coding?fpr=frontendinterviewhandbook). Start practicing today!
+
+:::
+
 ## Considerations
 
 After you complete (or even before you start on) the question, think about these potential issues (where relevant). You may or may not have to handle them, so you can always clarify with the interviewer before starting on it so that you don't write too much/little code.

@@ -1,16 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import BrowserOnly from '@docusaurus/BrowserOnly';
 
 import clsx from 'clsx';
 
 import styles from './styles.module.css';
 
-const BACKGROUNDS = [
-  styles.backgroundOrange,
-  styles.backgroundPurple,
-  styles.backgroundRed,
-];
+const BACKGROUNDS = [styles.backgroundOrange, styles.backgroundRed];
 
 function FAANGTechLeads({className, position}) {
   return (
@@ -51,6 +46,28 @@ function AlgoMonster({className, position}) {
         </strong>
         Developed by Google engineers, <u>AlgoMonster</u> is the fastest way to
         get a software engineering job. <u>Join today for a 70% discount!</u>!
+      </p>
+    </a>
+  );
+}
+
+function GreatFrontEnd({position}) {
+  return (
+    <a
+      className={clsx(styles.container, styles.backgroundPurple)}
+      href={`https://www.greatfrontend.com?utm_source=frontendinterviewhandbook&utm_medium=referral&utm_content=${position}&fpr=frontendinterviewhandbook`}
+      target="_blank"
+      rel="noopener"
+      onClick={() => {
+        window.gtag('event', `greatfrontend.${position}.click`);
+      }}>
+      <p className={styles.tagline}>
+        <strong className={styles.title}>
+          LeetCode for Front End Interviews
+        </strong>
+        Get 50% off <u>Great Front End</u>'s lifetime plan of high quality
+        practice questions, answers and guides by{' '}
+        <u>ex-FAANG Senior Engineers</u>
       </p>
     </a>
   );
@@ -97,19 +114,23 @@ export default React.memo(function SidebarAd({position}) {
           );
         }
 
-        return Math.random() > 0.5 ? (
-          <AlgoMonster
-            className={backgroundClass}
-            key={Math.random()}
-            position={position}
-          />
-        ) : (
-          <EducativeCoding
-            className={backgroundClass}
-            key={Math.random()}
-            position={position}
-          />
-        );
+        if (path.includes('algorithms')) {
+          return Math.random() > 0.5 ? (
+            <AlgoMonster
+              className={backgroundClass}
+              key={Math.random()}
+              position={position}
+            />
+          ) : (
+            <EducativeCoding
+              className={backgroundClass}
+              key={Math.random()}
+              position={position}
+            />
+          );
+        }
+
+        return <GreatFrontEnd position={position} />;
       }}
     </BrowserOnly>
   );

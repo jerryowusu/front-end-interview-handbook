@@ -8,7 +8,9 @@ ByteDance/TikTok's front end interview is quite balanced in terms of interview f
 ## JavaScript
 
 - Implement `Promise.all`.
+  - [Practice question on Great Front End](https://www.greatfrontend.com/questions/javascript/promise-all)
 - Implement a function which extends `Array.prototype`.
+  - [Practice questions on Great Front End](https://www.greatfrontend.com/questions/coding)
 
 ## User interface coding
 
